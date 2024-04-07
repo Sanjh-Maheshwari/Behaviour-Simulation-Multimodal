@@ -87,7 +87,22 @@ We used personal hardware which consisted o multiple GPUs for training the model
 
 ## Evaluation  <a name="eval"></a>  
 
+For evaluation, we provide notebook and checkpoint for testing the model on sample data and also calculate RMSE which was the metric used for evaluation of our model. Follow following steps : 
+1. First download the checkpoint of the model using gdown
+```
+gdown --id 1zc-NCElKHqu1nOorfbXjbYSChM_R8TM3
+```
+
+2. Relocate the model
+```
+output/exp050_llama/checkpoint-9235
+```
+
+3. Finally, run the inference notebook. 
+
 ## Future Works <a name="fut"></a> 
+
+In this work, we trained a very prelaminary multimodal for the task. To extend this work one can deep dive into the training data and method described in the [paper](https://arxiv.org/pdf/2309.00359.pdf)) which also describes additional pretraining steps. Finally, one can also look at newer models like [Llava](https://github.com/haotian-liu/LLaVA).
 
 ## Acknowledgements <a name="ackn"></a> 
 The main source for this code : https://github.com/Ino-Ichan/GIT-LLM
