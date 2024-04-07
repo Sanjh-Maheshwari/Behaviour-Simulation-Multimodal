@@ -11,6 +11,7 @@ This repo is the codebase for The Task 1 of **Adobe Behaviour Simulation Challen
 * [Evaluation](#eval)
 * [Future Work](#fut)
 * [Acknowledgements](#ackn)
+* [Support](#sup)
 
 ## Introduction <a name="intro"></a> 
 In today’s digital age, the effectiveness of marketing strategies is predominantly gauged by their digital engagement metrics. Adobe’s Digital Experience Business, via the Adobe Experience Cloud, empowers businesses to craft and deliver exceptional digital experiences. The capabilities span across creating engaging, personalized customer experiences at scale, leveraging generative AI for content ideation and production, and delivering account-based marketing strategies.
@@ -105,4 +106,7 @@ output/exp050_llama/checkpoint-9235
 In this work, we trained a very prelaminary multimodal for the task. To extend this work one can deep dive into the training data and method described in the [paper](https://arxiv.org/pdf/2309.00359.pdf)) which also describes additional pretraining steps. Finally, one can also look at newer models like [Llava](https://github.com/haotian-liu/LLaVA).
 
 ## Acknowledgements <a name="ackn"></a> 
-The main source for this code : https://github.com/Ino-Ichan/GIT-LLM
+The main source for this code : https://github.com/Ino-Ichan/GIT-LLM  
+
+## Support <a name="sup"></a>
+There are many ways to support a project - starring⭐️ the GitHub repo is just one. 
